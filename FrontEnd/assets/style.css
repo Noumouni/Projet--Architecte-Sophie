@@ -98,6 +98,26 @@ nav li {
 li:hover {
 	color: #B1663C;
 }
+
+
+h3{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D6154;
+    font-weight: 700;
+}
+button{
+	color: #1D6154;
+    background: none;
+    border: none;
+    margin: 3px;
+    border-radius: 10px;
+    padding: 5px;
+	border: 1px solid;
+	margin-bottom: 10px;
+}
+
 #introduction {
 	display: flex;
 	align-items: center;
