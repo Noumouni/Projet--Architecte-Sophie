@@ -21,4 +21,3 @@ try {
 }
 };
 
-export const login = async () => 
