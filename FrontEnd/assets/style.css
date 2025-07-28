@@ -53,6 +53,16 @@ body {
 	font-family: 'Work Sans' ;
 	font-size: 14px;
 }
+
+.banner{
+	background: black;
+	width: 1440px;
+     height: 50px;
+	 color: white;
+	 text-align: center;
+	 font-size: 16px;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -144,6 +154,186 @@ button{
 #portfolio h2 {
 	text-align: center;
 	margin-bottom: 1em;
+}
+
+.upload{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.upload a{
+	text-decoration: none;
+	color: black;
+
+}
+hr{
+	width: 420px;
+	height: 1px;
+
+}
+
+.btn-modal{
+	color: white;
+    background: #1D6154;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+	border: 1px solid;
+	margin-bottom: 10px;
+	margin: 10px auto;
+	display: block;
+}
+
+.modal{
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgb(0, 0, 0, 0.8);
+
+}
+.modal-wrapper{
+	overflow: auto;
+	width: 630px;
+	height: 688px;
+	border-radius: 10px;
+	background-color: white;
+	padding: 29px;
+
+}
+
+#gallerie-modal {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	
+	
+  }
+  .modal-wrapper h1{
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .modal-wrapper img {
+	width: 78.123px;
+	height: 104.08px;
+	object-fit: cover;
+	
+  }
+
+  .delete-btn{
+    background: black;
+    border: none;
+    padding: 5px;
+	border: 1px solid;
+	margin-bottom: 10px;
+	margin: 10px auto;
+    position: absolute;
+    left: 50px;
+	top: 0;
+}
+
+ .fa-trash-can{
+	color: white;
+ }
+ .figure-modale{
+	position: relative;
+
+ }
+
+ .modal2{
+	width:630px ;
+	height:670px ;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0  4px 5px rgba(0, 0, 0, 0.3);
+
+   
+ }
+ .modal2 h1{
+text-align: center;
+color: #000;
+font-family: "Work Sans";
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+.rectangle{
+border-radius: 3px;
+background: #E8F1F6;
+width: 420px;
+height: 169px;
+margin: 20px auto;
+
+}
+.rectangle img{
+	width: 76px;
+	height: 76px;
+	margin:10px auto ;
+	display: block;
+}
+
+.rectangle button{
+	margin: 5px auto;
+    display: block;
+	display: block;
+	
+	
+}
+.rectangle p{
+	text-align: center;
+	
+}
+.fa-xmark {
+	margin-left: 600px;
+}
+.select-form input {
+	width: 420px;
+    height: 51px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
+    border: none;
+}
+.select-form select{
+	width: 420px;
+    height: 51px;
+    display: flex; 
+	justify-content: center;
+	align-items: center;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
+    border: none;
+}
+.btn-modal2{
+	width: 237px;
+	height: 36px;
+	border-radius:60px ;
+	background-color: ;
+	margin: 20px auto;
+	display: block;
+
+}
+.input-form{
+	align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#titlemodal{
+	font-size: 16px;
+    text-align: center;
+	padding: 20px;
 }
 
 #category-menu{

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page-de-connexion</title>
     <link rel="stylesheet" href="./assets/connexion.css">
+    <script src="Script/script.js" type="module"></script>
+    <script src="Script/login.js" type="module"></script>
+
+    
 </head>
 <body>
     <header>
@@ -21,19 +25,19 @@
     <main>
         <h1 class="log-in">Log in </h1>
 
-        <form action="" method="get">
+        <form  id="loginForm" >
             <label for="e-mail">E-mail</label>
-            <input type="text" name="e-mail" id="e-mail">  <br>
+            <input type="text" name="e-mail" id="emailInput">  <br>
 
             <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password"><br>
-
-           
+            <input type="password" name="password" id="passwordInput" required> <br>
+            <a href="">
+                <button type="submit" class="btn-connexion">  Se connecter</button>
+            </a>
+            <a href="" class="forget">Mot de passe oublié</a>
+            <p id="errorMessage" style="color: red;"></p>
         </form>
-        <a href="">
-            <button class="btn-connexion">  Se connecter</button>
-        </a><br> 
-        <a href="" class="forget">Mot de passe oublié</a>
+ 
 
     </main>
     

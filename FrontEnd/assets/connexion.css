@@ -1,7 +1,107 @@
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** end reset css**/
+body {
+	max-width: 1140px;
+	margin:auto;
+	font-family: 'Work Sans' ;
+	font-size: 14px;
+   background: #FFFEF8;
+   }
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0
+}
+section {
+	margin: 50px 0
+}
+
+h1{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Syne';
+	font-size: 22px;
+	font-weight: 800;
+	color: #B1663C
+}
+
+h1 > span {
+	font-family: 'Work Sans';
+	font-size:10px;
+	letter-spacing: 0.1em;
+;
+}
+
+h2{
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	color: #1D6154
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+
+}
+nav li {
+	padding: 0 10px;
+	font-size: 1.2em;
+}
+
+li:hover {
+	color: #B1663C;
+}
+
+
+h3{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D6154;
+    font-weight: 700;
+}
+button{
+	color: #1D6154;
+    background: none;
+    border: none;
+    margin: 3px;
+    border-radius: 10px;
+    padding: 5px;
+	border: 1px solid;
+	margin-bottom: 10px;
+}
+
+
+
+
 .log-in{
     display: flex;
     justify-content: center;
     align-items: center;
+ color: #1D6154;
+font-family: Syne;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
     }
     form{
         margin-left: 400px;
@@ -13,27 +113,34 @@
         padding: 5px;
         width: 50%;
         margin-bottom: 20px;
+     background: #FFF;
+       box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
+       border: none;
     }
     
     input[type="password"]{
         padding: 5px;
         width: 50%;
         margin-bottom: 20px;
+           margin-bottom: 20px;
+     background: #FFF;
+       box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
+       border: none;
     }
-    label{
-        
-    }
+   
     
     .btn-connexion{
         color: white;
         background: #1D6154;
         border: none;
         margin: 3px;
-        border-radius: 10px;
+        border-radius: 60px;
         padding: 5px;
         border: 1px solid;
         margin-bottom: 10px;
         margin-left: 500px;
+        width:179px ;
+        height: 36px;
     
     }
     .forget{
